@@ -1,0 +1,107 @@
+@tailwind utilities;
+@import "tailwindcss";
+
+body {
+  background: radial-gradient(
+      52.52% 32.71% at 50% 97.66%,
+      rgba(36, 160, 181, 0.2) 0%,
+      rgba(36, 160, 181, 0) 100%
+    ),
+    #02191d;
+  color: #fff;
+}
+
+.back {
+  background: radial-gradient(
+      52.52% 32.71% at 50% 2.34%,
+      rgba(36, 160, 181, 0.2) 0%,
+      rgba(36, 160, 181, 0) 100%
+    ),
+    radial-gradient(
+      52.52% 32.71% at 50% 97.66%,
+      rgba(36, 160, 181, 0.2) 0%,
+      rgba(36, 160, 181, 0) 100%
+    ),
+    #02191d;
+  color: #fff;
+}
+
+.tech {
+  background: radial-gradient(
+    103.64% 57.39% at 14.02% 32.06%,
+    rgba(36, 160, 181, 0.2) 0%,
+    rgba(36, 160, 181, 0) 100%
+  );
+}
+
+.btnFont {
+  font-family: "jeju";
+}
+
+.roboto {
+  font-family: "roboto";
+}
+
+.road {
+  font-family: "road";
+}
+
+.alatsi {
+  font-family: "alatsi";
+}
+
+.zig {
+  border-style: dashed;
+  color: #24a0b5;
+  width: 90%;
+  left: 14px;
+}
+
+.pbd {
+  border-bottom: 1px solid #12464e;
+  width: 100%;
+}
+
+.bdn {
+  border-right: 1px solid #12464e;
+}
+
+.bod {
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right-color: #24a0b5;
+  border-width: 1px;
+}
+
+@font-face {
+  font-family: "jeju";
+  src: url(./assets/JejuMyeongjo-Regular.ttf);
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(./assets/Roboto.ttf);
+}
+
+@font-face {
+  font-family: "road";
+  src: url(./assets/RoadRage.ttf);
+}
+
+@font-face {
+  font-family: "alatsi";
+  src: url(./assets/Alatsi.ttf);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
